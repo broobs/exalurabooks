@@ -1,10 +1,22 @@
-:root{
-    --principal-color: #EBECEE;
-
+:root {
+  --principal-color: #ebecee;
 }
 
-body{
-    background: var(--principal-color);
+body {
+  background: var(--principal-color);
 }
 
+.menu {
+  height: 80px;
+}
 
+.container-menu {
+  background-color: orange;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 1px 10px rgb(119, 119, 119);
+}
