@@ -1,2 +1,2 @@
 Arquivo de exercício para o curso Alura
-estou encontrando erro referente às imagens svg que não estão aparecendo, podem me ajusar?
+estou encontrando erro referente à lista do menu hamburguer, podem ajudar?
