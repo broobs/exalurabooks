@@ -1,10 +1,14 @@
+@import url("style/header.css");
 :root{
     --principal-color: #EBECEE;
+    --line-color: #fff;
+
 
 }
 
 body{
     background: var(--principal-color);
 }
+
 
 
