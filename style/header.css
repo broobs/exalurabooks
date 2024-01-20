@@ -21,12 +21,32 @@
     align-items: center;
 }
 .menu__list{
-display:none;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+/* display:none; */
 position: absolute;
 top:100%;
-width: 60%;
+width: 50svw;
+background-color: var(--line-color);
+padding: 1em;
 }
 
 .container__list:checked~ .menu__list{
-display:flex;
+display:block;
+}
+
+.title__list{
+    font-family: 'Poppins', sans-serif;
+    color: var(--orange);
+font-size: 1rem;
+font-weight: 700;
+}
+
+.link__list{
+    font-family: 'Poppins', sans-serif;
+    color: var(--blue);
+text-decoration: none;
+font-size: 1rem;
+font-weight: 400;
 }
