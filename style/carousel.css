@@ -1,14 +1,15 @@
 .carousel{
-    background: var(--line-color);
+    background: var(--principal-color);
 }
 
 .carousel__title{
+    background: var(--line-color);
     text-align: center;
     font-size: 1rem;
     text-transform: uppercase;
     color: var(--orange);
     font-weight: 700;
-    padding: 1em 0 0.5em 0;
+    padding: 1.5em 0 1em 0;
 
 }
 
@@ -16,10 +17,151 @@
     width: 100%;
 }
 
-.swiper-button-prev{
+.swiper-button-prev, .swiper-button-next{
     display: none;
 }
 
 .swiper-pagination {
     position: initial;
+    margin: 1em 0;
+}
+
+.description__card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__buttoms{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttoms{
+    display: flex;
+}
+
+.card{
+
+background: var(--line-color); 
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+border-radius: 10px;
+margin: 2rem;
+padding: 1rem;
+
+}
+
+.description__title{
+    margin:0.5em;
+color: var(--orange);
+font-weight: 700;
+}
+
+.description__book{
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0.5em 0;
+}
+
+.description__text{
+    font-size: 14px;
+}
+
+.buttoms__items{
+    0 0.5em;
+}
+
+.buttom__more{
+    background-color: var(--orange);
+    padding: 1em 2.2em;
+    color:var(--line-color);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.description__title2{
+margin: 1rem 0 1rem 0; 
+color: var(--orange);
+font-weight: 700;
+}
+
+.description__name{
+    margin-bottom:1rem;
+    color: var(--blue);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0.5em 0;
+}
+
+.topics{
+    background: var(--blue);
+    padding: 1em;
+    text-align: center;
+}
+
+.topic__title{
+    color:var(--line-color);
+    font-weight: 300;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.topic__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topic__items{
+    margin: 2em 0.5em;
+
+}
+.topic__link{
+   background-color: var(--orange);
+    padding: 1em 2em;
+    color:var(--line-color);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contact{
+    background: var(--line-color);
+    color:var(--blue);
+    padding: 1em;
+}
+
+.contact__title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact__text{
+font-weight: 300;
+margin: 1em 0;
+}
+
+.contact__email{
+    background-color: transparent;
+    border:1px solid var(--blue);
+    border-radius: 24px;
+    padding: 1em;
+    width: 90%;
+}
+
+.contact__email::placeholder{
+    font-family: var(--principal-font);
+    padding-left: 2em;
+    color: var(--blue);
+    background: url("../img/Email.svg");
+    background-repeat: no-repeat;
+    position: 2em;
+}
+
+.footer{
+    background: var(--line-color);
+padding: 0.5em;
 }
