@@ -1,17 +1,22 @@
 @import url("style/header.css");
-:root{
+@import url("style/banner.css");
+@import url("style/carousel.css");
+
+
+:root {
     --principal-color: hwb(220 92% 7%);
     --line-color: #fff;
     --orange: #EB9B00;
---blue: #002F52 35.49%, #326589 165.37%;
+    --blue: #002F52;
+    --principal-font: 'Poppins';
 
 
 
 }
 
-body{
+body {
     background: var(--principal-color);
+    font-family: var(--principal-font);
+    font-size: 1rem;
+    font-weight: 400;
 }
-
-
-
