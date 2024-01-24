@@ -87,3 +87,15 @@ font-weight: 700;
         margin-left: 21rem;
     }
 }
+
+@media screen and (min-width: 1728px){
+
+    .description__title{
+        font-size: 32px;
+    }
+
+    .description__text{
+        margin-right: 2em;
+    }
+
+}

@@ -8,6 +8,14 @@
     background-repeat: no-repeat;
 }
 
+.container:checked ~.container__label> .hamburguer__menu {
+    background-image: url("../img/menu_white.svg");
+}
+
+.container:checked ~.container__label {
+    background: var(--blue);
+}
+
 .menu {
     background-color: var(--line-color);
     display: flex;
@@ -59,6 +67,10 @@
     display: none;
 }
 
+.container__text{
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
 
 .container__title, .bold__title {
@@ -104,10 +116,6 @@ width: auto;
 
 .link__list{
     margin-bottom: 1em;
-}
-
-.container__text{
-    display: none;
 }
 
 }

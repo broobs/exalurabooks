@@ -35,8 +35,11 @@
         margin: 2em 0 3em 0;
     }
     
+    .swiper{
+        width: 60%;
+    }
     .swiper-slide{
-        width: 30%;
+        padding: 0 1em;
     }
 
     .swiper-button-prev, .swiper-button-next{
@@ -47,9 +50,23 @@
 }
 
 @media screen and (min-width: 1728px) {
+
     .carousel__container{
         display: flex;
-        width: 30%;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination{
+        margin: 2em 0;
+    }
+
+    .swiper{
+        width: 40%;
     }
     
+    .swiper-slide{
+        padding: 0.5em;
+    }
+
 }

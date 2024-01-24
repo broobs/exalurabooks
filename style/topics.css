@@ -45,4 +45,12 @@
     .topic__items{
         margin: 2.5em 1em;
     }
+
+}
+
+@media screen and (min-width: 1728px){
+.topics{
+    padding: 4em 20vw;
+}
+
 }
