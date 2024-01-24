@@ -2,6 +2,7 @@
 @import url("style/banner.css");
 @import url("style/carousel.css");
 @import url("style/card.css");
+@import url("style/topics.css");
 @import url("style/footer.css");
 
 
@@ -11,6 +12,8 @@
     --orange: #EB9B00;
     --blue: #002F52;
     --black: #000;
+    --black-font-footer: #474646;
+    --grey-title-footer: #858585;
     --principal-font /*MUDAR PARA PRIMARY*/: 'Poppins';
     --secondary-font: 'Josefin Sans';
 

@@ -51,6 +51,7 @@ font-weight: 700;
     color:var(--line-color);
     font-weight: 700;
     text-decoration: none;
+    margin-left: 10rem;
 }
 
 
@@ -68,34 +69,21 @@ font-weight: 700;
     margin: 0.5em 0;
 }
 
-.topics{
-    background: var(--blue);
-    padding: 1em;
-    text-align: center;
-}
 
-.topic__title{
-    color:var(--line-color);
-    font-weight: 300;
-    margin-bottom: 1em;
-    text-transform: uppercase;
-}
+@media screen and (min-width: 1024px){
+    .card{
+    width: 50%;
+    margin: 2em auto;
+    }
 
-.topic__list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    .description__title{
+        margin: 1em 0;
+    }
+    .description__text{
+        margin: 1em 0;
+    }
 
-.topic__items{
-    margin: 2em 0.5em;
-
-}
-.topic__link{
-   background-color: var(--orange);
-    padding: 1em 2em;
-    color:var(--line-color);
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
+    .buttom__more{
+        margin-left: 21rem;
+    }
 }
