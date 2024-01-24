@@ -1,6 +1,8 @@
 @import url("style/header.css");
 @import url("style/banner.css");
 @import url("style/carousel.css");
+@import url("style/card.css");
+@import url("style/footer.css");
 
 
 :root {
@@ -8,7 +10,9 @@
     --line-color: #fff;
     --orange: #EB9B00;
     --blue: #002F52;
-    --principal-font: 'Poppins';
+    --black: #000;
+    --principal-font /*MUDAR PARA PRIMARY*/: 'Poppins';
+    --secondary-font: 'Josefin Sans';
 
 
 

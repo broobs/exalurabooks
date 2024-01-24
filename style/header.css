@@ -51,3 +51,58 @@
     text-decoration: none;
     
 }
+.container__title{
+    display: none;
+}
+
+.options{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+.container__title, .bold__title {
+    font-family: var( --secondary-font);
+    font-size: 30px;
+    margin-left: 0.2em;
+}
+
+.container__title{
+    display: flex;
+    font-weight: 400;
+}
+
+.bold__title{
+    font-weight: 700;
+}
+.options{
+    display:flex;
+    text-align: center;
+}
+.options__items{
+    padding: 0 1em;
+    text-transform: uppercase;
+}
+.options__link{
+    text-decoration: none;
+    color:var(--black);
+}
+
+.favourite__image{
+    display: none;
+}
+
+.hamburguer__menu{
+    display: none;
+}
+
+.options__buttom:checked ~.menu__list{
+display: block;
+align-items: center;
+width: auto;
+}
+
+.link__list{
+    margin-bottom: 1em;
+}
+}
