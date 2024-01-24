@@ -15,7 +15,9 @@
     --black: #000;
     --black-font-footer: #474646;
     --grey-title-footer: #858585;
-    --principal-font /*MUDAR PARA PRIMARY*/: 'Poppins';
+    --principal-font
+    /*MUDAR PARA PRIMARY*/
+    : 'Poppins';
     --secondary-font: 'Josefin Sans';
 
 

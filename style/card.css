@@ -1,68 +1,68 @@
-.description__card{
+.description__card {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
 }
 
-.card__buttoms{
+.card__buttoms {
     display: flex;
     justify-content: space-between;
 
 }
 
-.buttoms{
+.buttoms {
     display: flex;
 }
 
-.card{
+.card {
 
-background: var(--line-color); 
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
-border-radius: 10px;
-margin: 2rem;
-padding: 1rem;
+    background: var(--line-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 1rem;
 
 }
 
-.description__title{
-    margin:0.5em;
-color: var(--orange);
-font-weight: 700;
+.description__title {
+    margin: 0.5em;
+    color: var(--orange);
+    font-weight: 700;
 }
 
-.description__book{
+.description__book {
     color: var(--blue);
     font-weight: 700;
     font-size: 18px;
     margin: 0.5em 0;
 }
 
-.description__text{
+.description__text {
     font-size: 14px;
 }
 
-.buttoms__items{
+.buttoms__items {
     0 0.5em;
 }
 
-.buttom__more{
+.buttom__more {
     background-color: var(--orange);
     padding: 1em 2.2em;
-    color:var(--line-color);
+    color: var(--line-color);
     font-weight: 700;
     text-decoration: none;
     margin-left: 10rem;
 }
 
 
-.description__title2{
-margin: 1rem 0 1rem 0; 
-color: var(--orange);
-font-weight: 700;
+.description__title2 {
+    margin: 1rem 0 1rem 0;
+    color: var(--orange);
+    font-weight: 700;
 }
 
-.description__name{
-    margin-bottom:1rem;
+.description__name {
+    margin-bottom: 1rem;
     color: var(--blue);
     font-weight: 700;
     font-size: 18px;
@@ -70,31 +70,32 @@ font-weight: 700;
 }
 
 
-@media screen and (min-width: 1024px){
-    .card{
-    width: 50%;
-    margin: 2em auto;
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 50%;
+        margin: 2em auto;
     }
 
-    .description__title{
-        margin: 1em 0;
-    }
-    .description__text{
+    .description__title {
         margin: 1em 0;
     }
 
-    .buttom__more{
+    .description__text {
+        margin: 1em 0;
+    }
+
+    .buttom__more {
         margin-left: 21rem;
     }
 }
 
-@media screen and (min-width: 1728px){
+@media screen and (min-width: 1728px) {
 
-    .description__title{
+    .description__title {
         font-size: 32px;
     }
 
-    .description__text{
+    .description__text {
         margin-right: 2em;
     }
 
